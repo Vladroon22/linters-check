@@ -1,0 +1,41 @@
+{
+  "check_lower_case": true,
+  "check_english": true,
+  "check_special_sym": true,
+  "check_sensitive": true,
+  "sens_regex": [
+    "(?i)password",
+    "(?i)passwd",
+    "(?i)pwd",
+    "(?i)token",
+    "(?i)jwt",
+    "(?i)api_?key",
+    "(?i)apikey",
+    "(?i)secret",
+    "(?i)private.?key",
+    "(?i)client.?secret",
+    "(?i)credential",
+    "(?i)auth",
+    "(?i)bearer",
+    "credit.?card"
+  ],
+  "sens_keyword": [
+    "password",
+    "passwd",
+    "pwd",
+    "secret",
+    "token",
+    "api_key",
+    "apikey",
+    "key",
+    "auth",
+    "authorization",
+    "credit",
+    "card",
+    "cvv",
+    "private",
+    "cert",
+    "certificate",
+    "credit"
+  ]
+}

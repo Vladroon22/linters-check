@@ -1,0 +1,12 @@
+module github.com/Vladroon22/linters-check
+
+go 1.26
+
+require golang.org/x/tools v0.42.0
+
+require github.com/google/go-cmp v0.7.0 // indirect
+
+require (
+	golang.org/x/mod v0.33.0 // indirect
+	golang.org/x/sync v0.19.0 // indirect
+)
