@@ -18,7 +18,7 @@ jobs:
 
       - name: Unit tests
         run: | 
-            go test ./analyzer/rules_test.go
+            go test ./testdata/rules_test.go
             go test analyzer_test.go
 
   build-gcl:
