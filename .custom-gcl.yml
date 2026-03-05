@@ -1,0 +1,5 @@
+version: v2.10.1
+plugins:
+  - module: 'github.com/Vladroon22/linters-check'
+    import: 'github.com/Vladroon22/linters-check/plugin'
+    path: .

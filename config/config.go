@@ -78,13 +78,13 @@ func loadConfig() (*Config, error) {
 			return nil, fmt.Errorf("error parsing JSON: %w", err)
 		}
 	case "yaml":
-		config = loadYaml()
+		config = LoadYaml()
 	}
 
 	return &config, nil
 }
 
-func loadYaml() Config {
+func LoadYaml() Config {
 	settings := make(map[string]any)
 
 	cfg := Config{}

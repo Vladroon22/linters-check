@@ -4,14 +4,11 @@ linters:
   default: none
   enable:
     - customlinter
-
   settings:
     custom:
       customlinter:
-        type: plugin
-        path: ./plugin/customlinter.so
-        description: "Checks log data"
-        original-url: github.com/Vladroon22/linters-check
+        type: module
+        description: "checks log messages against predefined rules: low case words, special symbols, sensitive data and certain language"
         settings:
           check_lower_case: true
           check_english: true
@@ -32,7 +29,7 @@ linters:
             - "(?i)auth"
             - "(?i)bearer"
             - "credit.?card"
-          
+            
           sens_keyword:  
             - "password"
             - "passwd"

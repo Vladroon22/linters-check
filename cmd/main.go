@@ -1,10 +1,8 @@
 package main
 
 import (
-	"github.com/Vladroon22/linters-check/analyzer"
+	"github.com/Vladroon22/linters-check/pkg/analyzer"
 	"golang.org/x/tools/go/analysis/singlechecker"
 )
 
-func main() {
-	singlechecker.Main(analyzer.CustomAnalyzer)
-}
+func main() { singlechecker.Main(analyzer.CustomAnalyzer) }
