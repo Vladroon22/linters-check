@@ -4,7 +4,11 @@ go 1.26
 
 require golang.org/x/tools v0.42.0
 
-require github.com/google/go-cmp v0.7.0 // indirect
+require (
+	github.com/google/go-cmp v0.7.0 // indirect
+	go.uber.org/multierr v1.10.0 // indirect
+	go.uber.org/zap v1.27.1 // indirect
+)
 
 require (
 	github.com/golangci/plugin-module-register v0.1.2
