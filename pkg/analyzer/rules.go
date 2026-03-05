@@ -26,7 +26,7 @@ func CheckLowerCase(cfg *config.Config, msg string) bool {
 	}
 
 	firstChar := []rune(msg)[0]
-	if !unicode.IsUpper(firstChar) {
+	if unicode.IsUpper(firstChar) {
 		return false
 	}
 

@@ -25,7 +25,7 @@ go build cmd/main.go
 <h4>How to test it</h4>
 
 ```
-go test ./analyzer/rules_test.go
+go test ./testdata/rules_test.go
 
 go test analyzer_test.go
 

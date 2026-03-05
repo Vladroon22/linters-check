@@ -4,7 +4,7 @@ import (
 	"log/slog"
 	"os"
 
-	"github.com/Vladroon22/linters-check/testdata/src/go.uber.org/zap"
+	zap "go.uber.org/zap"
 )
 
 func main() {
