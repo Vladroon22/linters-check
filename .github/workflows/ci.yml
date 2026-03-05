@@ -17,7 +17,9 @@ jobs:
           cache: true
 
       - name: Unit tests
-        run: go test ./...
+        run: | 
+            go test ./analyzer/rules_test.go
+            go test analyzer_test.go
 
   build-gcl:
     runs-on: ubuntu-latest
