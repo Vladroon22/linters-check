@@ -91,6 +91,12 @@ sens_keyword:
   - "token"
 ```
 
+3. CI - Github Actions
+
+```
+CI - .github/workflow/ci.yml
+```
+
 <h2>Use Cases<h2>
 
 ![use-case](assets/use-case-1.png) 
